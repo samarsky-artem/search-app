@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(69, 69, 69);
+}
+
+.body-content{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+.body-content-title{
+    color: rgb(235, 235, 235);
+    letter-spacing: 8px;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: "Roboto";
+
+}
+
+.body-search{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.bottom-body-content{
+    padding-top: 100px;
+}
+
+#content-result{
+    width: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+    scrollbar-width: none;
+
+}
+
+#content-result::-webkit-scrollbar {
+    display: none;
+}
+
+input{
+    background-color: rgb(235, 235, 235);
+    width: 50%;
+    padding: 11px;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+
+}
+
+input:focus{
+    outline: none;
+    
+}
+
+button{
+    height: 43px;
+    width: 43px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button svg {
+    width: 18px;
+    height: 18px;
+}
+
+.result-content {
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+.result-content h3 {
+    margin: 0 0 8px 0;
+    font-family: "Roboto";
+}
+
+.result-content p {
+    margin: 8px 0;
+    font-family: "Roboto";
+}
+
+.result-content a {
+    display: block;
+    margin-top: 10px;
+    font-family: "Roboto";
+}
