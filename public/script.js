@@ -32,7 +32,7 @@ searchButton.addEventListener("click", function(){
         let title = document.createElement("h3");
         title.textContent = item.title;
         let description = document.createElement("p");
-        description.textContent = item.snippet;
+        description.textContent = item.description;
         let link = document.createElement("a");
         link.textContent = item.link;
         link.href = item.link;
